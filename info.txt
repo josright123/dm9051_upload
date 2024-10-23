@@ -1,0 +1,6 @@
+This driver is developped and tested in an AT32F437 EV-Board.
+Interrupt mode is used.
+DHCPC function support.
+Webserver function provide.
+
+User can accord to modify to work with his MCU.

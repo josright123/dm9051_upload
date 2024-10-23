@@ -1,0 +1,53 @@
+
+
+[ZYK_project/re_zyk]
+[DM9051 DRV] [irq_stat]: --> irqst= 01 on add-bit 01 [IRQ_CFG]
+[DM9051 DRV] [irq_stat]: --> irqst= 11 on add-bit 10 [IRQ_LOW_TRIGGER]
+[DM9051 DRV]
+[DM9051 DRV] DM9051 found: 9051
+[DM9051 DRV] mac address 00606e905102
+[DM9051 DRV] env_err_rsthdlr to reset_process(mac): 25
+[DM9051 DRV] [irq_stat]: --> irqst= 31 on add-bit 20 (INTR.lo)
+[DM9051 DRV] [irq_stat]: --> irqst= 33 on add-bit 02 [IRQ_ENAB]
+[DM9051 DRV] [irq_stat]: --> irqst= 37 on add-bit 04 (IMR.pr)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 08 (RCR.rxen)
+[DM9051 DRV] env_err_rsthdlr1 to reset_process(mac): 25
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 20 (INTR.lo)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 02 [IRQ_ENAB]
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 04 (IMR.pr)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 08 (RCR.rxen)
+[DM9051 DRV] env_err_rsthdlr2 to reset_process(mac): 25
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 20 (INTR.lo)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 02 [IRQ_ENAB]
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 04 (IMR.pr)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 08 (RCR.rxen)
+[DM9051 DRV] env_err_rsthdlr3 to reset_process(mac): 25
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 20 (INTR.lo)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 02 [IRQ_ENAB]
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 04 (IMR.pr)
+[DM9051 DRV] [irq_stat]: --> irqst= 3f on add-bit 08 (RCR.rxen)
+[DM9051 DRV] [interrupt] dm9051_init successfully
+
+config: DHCPC
+handle_dhcp...
+send_discover [0]...
+[irq_stat]: --> irqst= 13f on add-bit 100 (INT 1)
+           rxlen   64
+           (dm9 head   <<rx) 000  ff ff ff ff ff ff 00 24  8c e4 43 24 08 06
+[irq_stat]: --> irqst= 33f on add-bit 100 (INT 2)
+DHCP - newdata
+send_request [0]...
+[irq_stat]: --> irqst= 33f on add-bit 100 (INT 3)
+DHCPACK
+config ip 192.168.6.2
+config gw 192.168.6.1
+--IP address setting from DHCP-----------
+Network chip: DAVICOM DM9051
+MAC Address: 0:60:6E:90:51:2
+Host IP Address: 192.168.6.2
+Network Mask: 255.255.255.0
+Gateway IP Address: 192.168.6.1
+---------------------------------------------
+[irq_stat]: --> irqst= 33f on add-bit 100 (INT 4)
+[irq_stat]: --> irqst= 33f on add-bit 100 (INT 5)
+
